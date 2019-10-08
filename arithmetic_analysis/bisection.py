@@ -33,6 +33,5 @@ def bisection(
 def f(x):
     return math.pow(x, 3) - 2 * x - 5
 
-
 if __name__ == "__main__":
     print(bisection(f, 1, 1000))
